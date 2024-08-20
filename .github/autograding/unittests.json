@@ -1,0 +1,38 @@
+[
+  {
+    "name": "test_initial_text",
+    "function": "test_initial_text",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_change_text",
+    "function": "test_change_text",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_equal_objects",
+    "function": "test_equal_objects",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_equal_objects_with_strings",
+    "function": "test_equal_objects_with_strings",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_not_equal_objects",
+    "function": "test_not_equal_objects",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_not_equal_objects_different_instances",
+    "function": "test_not_equal_objects_different_instances",
+    "timeout": 10,
+    "points": 1
+  }
+]
