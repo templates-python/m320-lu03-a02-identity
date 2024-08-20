@@ -1,10 +1,5 @@
 """
-In der Theorie haben Sie gelernt, wie mit der Methode isinstance die
-Zugehörigkeit eines Objekts zu einer Klasse festgestellt werden kann
-und wie mit dem Operator is geprüft wird, ob Referenzen identisch sind.
-Der folgende Code geht noch ein bisschen weiter. Sie sollen den Code
-studieren und sein Verhalten erklären. Dazu kann es notwendig sein,
-dass Sie sich über passende Suchbegriffe im Internet "schlau" machen.
+Compare two objects in different ways
 """
 class ObjectIdentity:
     """
