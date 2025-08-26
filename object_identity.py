@@ -37,11 +37,16 @@ class ObjectIdentity:
         """
         Vergleicht zwei Objekte auf deren Inhalt, sodass sie mit dem
         ==-Operator verglichen werden können.
-        Diese Methode ist implizit für jedes Objekt verfügbar und kann überschrieben
-        werden, um den gewünschten Effekt des Vergleichs zu bekommen.
+        Diese Methode ist implizit für jedes Objekt verfügbar und kann
+        überschrieben werden, um den gewünschten Effekt des Vergleichs
+        zu bekommen.
 
-        Wenn Ihnen nicht klar ist, wie man das macht, suchen Sie im Internet nach Lösungen,
-        z.B. diese hier -> https://www.pythontutorial.net/python-oop/python-__eq__/.
+        Es soll dabei Folgendes möglich sein:
+        - Zwei Instanzen von ObjectIdentity sind gleich, wenn ihr Attribut
+          'text' denselben Wert hat.
+        - Zusätzlich soll es möglich sein, eine Instanz direkt mit einem
+          String zu vergleichen. In diesem Fall gilt das Objekt als gleich,
+          wenn der String mit dem Attribut 'text' übereinstimmt.
         """
         pass
 
